@@ -1,0 +1,145 @@
+.contenedor-principal{
+	background: url(../img/rio.jpg) left top repeat;
+}
+
+nav {
+	min-height:130px;
+}
+
+.barranav h3{
+	display:block;
+	margin-top: 0;
+	margin-left:350px;
+	padding-top: 7px;
+}
+
+.barranav a img{
+	width:230px;
+	margin-top:10px;
+	margin-left: 100px;
+	border-radius: 10px;
+	display:inline;
+}
+
+.contenedor-principal .contenedor-up{
+	background-color: rgba(0, 0, 0, 0.5);
+	margin-bottom: 0;
+}
+
+.contenedor-rrss{
+	margin-top: 180px;
+	border: none;
+	padding:2px;
+	margin-bottom: 2px;
+	border-collapse: collapse;
+}
+
+a.collection-item.center-align{
+	background-color:transparent;
+	margin:2px;
+	border-radius: 10px;
+	border-bottom:none;
+}
+
+.contenedor-galeria{
+	margin-top: 180px;
+}
+
+.card{
+	background-color: transparent;
+	padding:0;
+}
+
+.contenedor-principal .contenedor-down{
+	background-color: rgba(101, 179, 41);
+}
+
+.publicacion{
+	margin-top:15px;
+	text-align: justify;
+}
+
+.publicacion img{
+	display:inline;
+	float:left;
+	margin-right: 15px;
+	margin-top: 7px;
+}
+
+.publicacion p{
+	display:inline;
+	margin-top: 0;
+}
+
+.contenedor-comentarios i{
+	display:inline;
+	float:left;
+}
+
+.contenedor-comentarios textarea{
+	display:inline;
+	border-radius: 10px;
+	padding-top: 10px;
+	background: white;
+}
+
+.contenedor-secundario{
+	width:99%;
+	background-color: rgba(243, 245, 178, 0.9);
+	padding:15px;
+	margin:15px 0;
+}
+
+.contenedor-secundario h3{
+	margin-top:0;
+}
+
+@media (min-width:600px) and (max-width:1000px){
+	.barranav h3{
+		display:block;
+		margin-top: 0px;
+		margin-left:0;
+		padding-top: 120px;
+	}
+
+	.barranav a img{
+		margin-left:20px;
+		width:170px;
+		margin-top:10px;
+		border-radius: 10px;
+		display:inline;
+	}
+
+	div.l11.m11.s12.galery{
+		width:100%;
+	}
+
+	div.row.contenedor.comentarios{
+		width:95%;
+	}
+
+	div.input-field.col.s11{
+		width:90%;
+	}
+
+}
+
+@media (max-width:600px) {
+	.barranav a img{
+		margin-left:20px;
+		width:170px;
+		margin-top:10px;
+		border-radius: 10px;
+		display:inline;
+	}
+	.barranav h4{
+		display:block;
+		margin-top: 0px;
+		margin-left:0;
+		padding-top: 120px;
+	}
+
+	div.input-field.col.s11{
+		width:80%;
+	}
+}
